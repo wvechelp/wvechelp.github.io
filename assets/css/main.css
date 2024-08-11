@@ -72,6 +72,11 @@ input, select, textarea {
 	appearance: none;
 }
 
+
+span.blockspam {
+	display: none;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -1821,7 +1826,7 @@ input, select, textarea {
 
 	.blurb h2 {
 		font-size: 0.8em;
-		margin: 0 0 1.5em 0;
+		margin: 0 0 1em 0;
 	}
 
 	.blurb h3 {
@@ -3388,8 +3393,8 @@ input, select, textarea {
 
 		#sidebar > * {
 			border-top: solid 1px rgba(160, 160, 160, 0.3);
-			margin: 3em 0 0 0;
-			padding: 3em 0 0 0;
+			margin: 1.5em 0 0 0;
+			padding: 1.5em 0 0 0;
 		}
 
 		#sidebar > :first-child {
